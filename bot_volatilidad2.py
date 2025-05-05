@@ -5,8 +5,8 @@ from decimal import Decimal, ROUND_DOWN, ROUND_FLOOR
 import time
 
 # Configuración de la API
-api_key = "8eTibTFVF3eBprPvjo"
-api_secret = "ejLpGJuYNYNIMf5W7sKs0NHvlsDfvFxkVTBz"
+api_key= input("por favor ingrese api key ")
+api_secret=input("por favor ingrese api secret ") 
 timeframe = "5"  # Intervalo de tiempo
 usdt = 10  # Cantidad de dólares para abrir posición
 

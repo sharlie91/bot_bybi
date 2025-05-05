@@ -5,8 +5,8 @@ import time
 import logging
 
 # Configuración hiper-agresiva (¡EXTREMO RIESGO!)
-api_key = "8eTibTFVF3eBprPvjo"
-api_secret = "AejLpGJuYNYNIMf5W7sKs0NHvlsDfvFxkVTBz"
+api_key= input("por favor ingrese api key ")
+api_secret=input("por favor ingrese api secret ") 
 symbol = "1000BONKUSDT"  # Moneda volátil
 timeframe = "1"  # Intervalo de 1 minuto
 usdt_amount = 10
