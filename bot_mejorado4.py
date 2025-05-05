@@ -20,7 +20,7 @@ RISK_PERCENT = 1
 TP_MULTIPLIER = 2
 VOLATILITY_THRESHOLD = 0.5
 COOLDOWN_PERIOD = 300
-MINIMUM_BALANCE = 4  # Saldo mínimo requerido para operar
+MINIMUM_BALANCE = 1  # Saldo mínimo requerido para operar
 
 class TradingBot:
     def __init__(self):
