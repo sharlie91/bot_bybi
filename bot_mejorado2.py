@@ -24,8 +24,8 @@ COOLDOWN_PERIOD = 300  # 5 minutos entre operaciones
 
 class TradingBot:
     def __init__(self):
-        self.api_key = "8eTibTFVF3eBprPvjo"
-        self.api_secret = "ejLpGJuYNYNIMf5W7sKs0NHvlsDfvFxkVTBz"
+        self.api_key = ""
+        self.api_secret = ""
         self.symbol = "XRPUSDT"
         self.timeframe = "5"
         self.client = None
